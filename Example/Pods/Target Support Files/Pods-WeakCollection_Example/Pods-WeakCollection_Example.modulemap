@@ -1,0 +1,6 @@
+framework module Pods_WeakCollection_Example {
+  umbrella header "Pods-WeakCollection_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WeakCollection_Example' do
+  pod 'WeakCollection', :path => '../'
+
+  target 'WeakCollection_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - WeakCollection (0.1.0)
+
+DEPENDENCIES:
+  - WeakCollection (from `../`)
+
+EXTERNAL SOURCES:
+  WeakCollection:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WeakCollection: a582046790132ef9d3e6516845ec7aa96e95e5cb
+
+PODFILE CHECKSUM: 6d93fef3aa2f77e9b24f4e2931e7ab9df353760d
+
+COCOAPODS: 1.8.4
