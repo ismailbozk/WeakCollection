@@ -9,7 +9,7 @@
 WeakCollection is a collection that holds only non-optional class type objects in its self without increasing the reference count the given object. If te given item is optional or a struct type, it will being dicarded completely.  
 ### Any Type collection
 
-```
+```swift
 import WeakCollection
 
 let weakCollection = WeakCollection(elements: [UIView(), UIView(), UIView()])
@@ -27,7 +27,7 @@ With WeakCollectin you can defined collections like you define any regular array
 _weakClassProtocolArray_ will only accept  _SomeProtocol_ class type object. Otherwise Xcode will produce an _expected type_ compile error.
 
 
-```
+```swift
 protocol SomeProtocol: AnyObject {
     var zoo: Int { get set }
     func foo() -> Bool
